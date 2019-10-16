@@ -60,7 +60,7 @@ for firm in list_of_firms:
 
         # Вывод сообщения с полной информацией ==============================
 
-        # Git Test
+        # Git Test work 1
 
         mb.showinfo("Сообщение",
                     "Бекап готов!\nРасположение архива: {0}\nПуть к источнику: {1}".format(target_path2, src_path))
