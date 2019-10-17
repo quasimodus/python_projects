@@ -29,7 +29,6 @@ now = time.strftime('%H%M%S')
 
 target = today + os.sep + now + '.zip'
 
-
 # Создаём каталог, если его ещё нет
 if not os.path.exists(today):
     os.mkdir(today)  # создание каталога
