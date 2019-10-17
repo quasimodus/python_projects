@@ -22,10 +22,10 @@ if not os.path.exists(target_dir):
 # 3. Файлы помещаются в zip-архив.
 
 # 4. Текущая дата служит именем подкаталога в основном каталоге
-today = target_dir + os.sep + time.strftime('%Y%m%d')
+today = target_dir + os.sep + time.strftime("%Y-%m-%d", time.localtime())
 
 # Текущее время служит именем zip-архива
-now = time.strftime('%H%M%S')
+now = time.strftime("%Y-%m-%d-%H.%M", time.localtime())
 
 target = today + os.sep + now + '.zip'
 
